@@ -50,7 +50,7 @@ Support:
 # CHANGELOG
 #   2011/03/23 - 1.0.0 - d0nin380
 #   * Initial Release
-#   29/03/2013 - 1.0.1 - d0nin380
+#   31/03/2013 - 1.0.1 - d0nin380
 #   * Fixed plugin name
 #   * multiple entries separated by semicolon instead of comma
 #
