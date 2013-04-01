@@ -1,0 +1,45 @@
+<configuration plugin="MorespamPlugin">
+	<!--
+	Set your custom Player to Player-say commands here.
+	These commands take a player name(or part of it) i.e. !lol d0nin380</set>
+	Anything after '-' is an alias.
+	-->
+	<settings name="commands-p2p">
+		<set name="lol">2</set>
+		<set name="sitdown-sd">2</set>
+		<set name="niceshot-ns">2</set>
+		<set name="insult">2</set>
+	</settings>
+	
+	<!--
+	Set in these settings the commands you want ppl to be able to see in PM.
+	!forum will pm the user the same message as if you typed !spam forum.
+	Anything after '-' is an alias.
+	-->
+	<settings name="commands">
+		<set name="forum">0</set>
+		<set name="ts">2</set>
+	</settings>
+	
+	<!--
+	***SET ALL YOUR RESPONSES IN HERE***. Multiple random entries semicolon separated or just a single response.
+	responses/name must be the same as commands-p2p/name or commands/name
+	-->
+	<settings name="responses">
+		<set name="lol">^3That was hilarious, $target; I cannot stop laughing; You are so funny; You made my day</set>
+		<set name="niceshot-ns">Nice shot; Awesome shot; That was a heck of a shot</set>
+		<set name="sitdown-sd">Sit down</set>
+		<set name="forum">Our forum is located @: www.tce-massa.com/forum</set>
+		<set name="ts">^2Our public ^3TS3(voicechat)^7: ^2tce-massa.com:9987</set>
+		<set name="insult">^1You are ugly; ^1If you were any worse than that you would be like Luka</set>
+	</settings>
+	
+	<settings name="help-messages">
+		<set name="lol"> PlayerName</set>
+		<set name="niceshot"> PlayerName or !ns PlayerName</set>
+		<set name="sitdown"> PlayerName or !sd PlayerName</set>
+		<set name="forum"> - Display the location of our forum</set>
+		<set name="ts"> - Display the information of our TeamSpeak 3 voicechat.</set>
+		<set name="insult">PlayerName</set>
+	</settings>
+</configuration>
