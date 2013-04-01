@@ -52,6 +52,6 @@ Support:
 #   * Initial Release
 #   29/03/2013 - 1.0.1 - d0nin380
 #   * Fixed plugin name
-#   * Code now matches B3 coding conventions
+#   * multiple entries separated by semicolon instead of comma
 #
     
